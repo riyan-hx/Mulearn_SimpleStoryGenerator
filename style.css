@@ -1,0 +1,86 @@
+body {
+    font-family: helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+
+.headings {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 800;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.story {
+    max-width: 800;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 80px;
+    border-bottom: 10px dotted rgba(128, 0, 128, 0.278);
+    margin-top: 0;
+    font-style: italic;
+    color: cadetblue;
+    text-shadow: 2px 2px rgba(28, 52, 44, 0.39);
+    font-size: 50px;
+}
+
+label {
+  font-weight: bold;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+button {
+    background-color: rgb(252, 212, 219);
+    padding: 8px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+    border: #5e2612 solid 1px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(252, 212, 219, 0.5);
+    transition:30ms;
+    cursor: pointer;
+
+}
+
+p {
+  background: #ffc125;
+  border: #5e2612 solid 1px;
+  border-radius: 10px;
+  color: #5e2612;
+  padding: 10px;
+  visibility: hidden;
+}
+
+
+input {
+  border: rgba(59, 48, 50, 0.5) solid 1px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+#customname :active {
+    outline: 2px solid orange; 
+}
